@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alarmpro_x"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/alarm_x3"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.NoActionBar" >
+        <activity
+            android:name="com.alarmpro_x.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity
+            android:name="add_alarm"
+            android:theme="@android:style/Theme.Holo.NoActionBar" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="settings"
+            android:theme="@android:style/Theme.Holo.NoActionBar" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="Time"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="sunrise"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="snooze_duration"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nap"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="alarm_list"
+            android:theme="@android:style/Theme.Holo.NoActionBar" 
+            android:screenOrientation="portrait">
+        </activity>
+         <activity
+            android:name="seasons"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="AlarmStart"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="information"
+            android:theme="@android:style/Theme.Holo.NoActionBar" 
+            android:screenOrientation="portrait">
+        </activity>
+         <activity
+            android:name="Splash"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" 
+            android:screenOrientation="portrait">
+        </activity>
+        
+         <activity
+            android:name="Splash2"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" 
+            android:screenOrientation="portrait">
+            
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <receiver android:name="AlarmBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.alarmpro_x.broadcastReceiever" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+</manifest>

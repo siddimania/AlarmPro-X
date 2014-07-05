@@ -1,0 +1,42 @@
+# view AndroidManifest.xml #generated:92
+-keep class com.alarmpro_x.AlarmBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.alarmpro_x.AlarmStart { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.alarmpro_x.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.alarmpro_x.Splash { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.alarmpro_x.Splash2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.alarmpro_x.Time { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.alarmpro_x.add_alarm { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.alarmpro_x.alarm_list { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.alarmpro_x.information { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.alarmpro_x.nap { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.alarmpro_x.seasons { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.alarmpro_x.settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.alarmpro_x.snooze_duration { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.alarmpro_x.sunrise { <init>(...); }
+

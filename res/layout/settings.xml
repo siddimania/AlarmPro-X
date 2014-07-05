@@ -1,0 +1,239 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#F8F8FF">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="#2A52BE" >
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_arrow_side" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="4"
+            android:text="Settings"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_marginTop="3dp"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/infowhite" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Snooze Duration  "
+                     android:textColor="#2A52BE"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sleepicon" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="#5C5C5C" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Default alarm sound "
+                    android:textColor="#2A52BE"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/imageButton3"
+                    android:layout_width="43dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/speaker_icon" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="#5C5C5C" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Vibration  "
+                     android:textColor="#2A52BE"
+                    android:textSize="18dp" />
+
+                <ToggleButton
+                    android:id="@+id/togglebutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="10dp"
+                    android:textOff="Off"
+                    android:textOn="On"
+                    android:textColor="#2A52BE"
+                     />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="#5C5C5C" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Remove all alarms"
+                    android:textColor="#2A52BE"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/imageButton3"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="68dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/trash_empty_icon" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="#5C5C5C" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                 <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Developer All Apps"
+                    android:textColor="#2A52BE"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/imageButton4"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="23dp"
+                    android:background="@drawable/internet_icon" />
+            </LinearLayout>
+
+            <!--  <View
+                android:id="@+id/view1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="#5C5C5C" />-->
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</RelativeLayout>
